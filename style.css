@@ -1,0 +1,216 @@
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+}
+
+
+.open {
+    display: none;
+    color: rgb(40, 209, 228);
+    position: fixed;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: x-large;
+}
+
+.menu {
+    background-color:white;
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    top: 0;
+    right:-300px;
+    font-size: 25px;
+    padding: 20px;
+    display: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+.mobmenu {
+    padding: 10px;
+}
+
+  
+    
+
+.close {
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    
+}
+
+.main {
+    background-color: black;
+    color: white;
+    display: flex;
+   
+}
+
+
+.main img {
+   
+    height: 250px;
+    width: 250px;
+    
+}
+
+ .anna { 
+     
+   padding: 50px; 
+ } 
+
+.hello {
+  
+   padding: 50px 100px;
+    font-size: xx-large;
+}
+
+.hello a {
+    text-decoration: none;
+    color: rgb(40, 209, 228);
+}
+
+
+.skills {
+    background-color: rgb(40, 209, 228);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    text-align: center;
+}
+
+.skills img {
+   height: 120px;
+    width: auto;
+    padding: 30px;
+    }
+
+h2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+   
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+.works img {
+   
+    width: 100%;
+   
+   
+}
+
+.works {
+    display: flex;
+    justify-content: center;
+}
+
+.art {
+   
+    
+    
+    width: 50%;
+    padding: 30px;
+    
+
+
+}
+
+.apartment {
+    width: 50%;
+    padding: 30px;
+   
+    
+   
+}
+
+
+
+
+
+
+h3 {
+    text-align: center;
+    
+}
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.contacts {
+    background-color: black;
+    color: rgb(120, 227, 239);
+    font-size: larger;
+    box-sizing: border-box;
+    font-weight:700;
+    padding: 20px;
+}
+
+@media(max-width:500px) {
+
+.open {
+    display: inline-block;
+}
+
+.menu {
+    display: block;
+}
+
+.main {
+    display: inline-block;
+}
+
+.works {
+
+    display: inline-block;
+}
+
+.art {
+
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.apartment {
+
+width: 100%;
+box-sizing: border-box;
+ 
+}
+
+}
+
+
+
